@@ -1,6 +1,8 @@
 module no.hvl.dat110.aciotdevice {
     requires javafx.controls;
     requires javafx.fxml;
+    requires okhttp3;
+    requires gson;
 
 
     opens no.hvl.dat110.aciotdevice.main to javafx.fxml;
